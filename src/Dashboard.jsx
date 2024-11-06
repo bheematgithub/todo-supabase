@@ -165,9 +165,9 @@ const Dashboard = () => {
       </form>
 
       {loading ? (
-        <p className='mt-5 display-6'>Loading todos...</p>
+        <p style={{ height: '50vh' }} className='d-flex align-items-center justify-content-center display-6'>Loading todos...</p>
       ) : todos.length === 0 ? (
-        <p className='mt-5 display-6'>No todos yet! Add some todos.</p>
+        <p style={{ height: '50vh' }} className='d-flex align-items-center justify-content-center display-6'>No todos yet! Add some todos.</p>
       ) : (
         <>
         <h4 className='mt-5 display-6'>Your Todos</h4>
